@@ -1,0 +1,20 @@
+# Ignore the virtual environment folder
+d803-env/
+venv/
+.venv/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore checkpoint files created automatically by Jupyter
+.ipynb_checkpoints/
+
+# OS Garbage
+.DS_Store
+
+# Extracted raw dataset
+cifar-10/cifar-10.zip
