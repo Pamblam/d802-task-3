@@ -17,4 +17,7 @@ __pycache__/
 .DS_Store
 
 # Extracted raw dataset
-cifar-10/cifar-10.zip
+cifar-10/
+cifar-10.zip
+x_train.pt
+*.7z
