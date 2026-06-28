@@ -9,10 +9,10 @@ pip install -r requirements.txt
 python -m ipykernel install --user --name=d803-env --display-name "Python (D803 Env)"
 ```
 
-# Note to self
+# Download the Data
 
-don't forget to save your environment after adding new stuff to it.
+The notebook assumes the dataset is extracted to the project directory.
 
-```
-pip freeze > requirements.txt
-```
+# Notes on Running
+
+If you run every cell, the script will use Optuna to do some Bayesian hyperparameter tuning before actually doing any training. This took more than an hour on my 3090, YMMV.
